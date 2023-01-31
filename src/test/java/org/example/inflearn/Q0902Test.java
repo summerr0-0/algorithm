@@ -3,7 +3,6 @@ package org.example.inflearn;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class Q0902Test {
 
@@ -15,21 +14,21 @@ class Q0902Test {
         int actual;
 
         expected = 3;
-        actual = sut.solution(5,new Q0902.Reservation[]{
-            new Q0902.Reservation(1 ,4),
-            new Q0902.Reservation(2 ,3),
-            new Q0902.Reservation(3 ,5),
-            new Q0902.Reservation(4 ,6),
-            new Q0902.Reservation(5 ,7)
+        actual = sut.solution(5, new Q0902.Reservation[]{
+            new Q0902.Reservation(1, 4),
+            new Q0902.Reservation(2, 3),
+            new Q0902.Reservation(3, 5),
+            new Q0902.Reservation(4, 6),
+            new Q0902.Reservation(5, 7)
         });
 
         assertThat(actual).isEqualTo(expected);
 
         expected = 2;
-        actual = sut.solution(3,new Q0902.Reservation[]{
-            new Q0902.Reservation(3 ,3),
-            new Q0902.Reservation(1 ,3),
-            new Q0902.Reservation(2 ,3)
+        actual = sut.solution(3, new Q0902.Reservation[]{
+            new Q0902.Reservation(3, 3),
+            new Q0902.Reservation(1, 3),
+            new Q0902.Reservation(2, 3)
         });
 
         assertThat(actual).isEqualTo(expected);

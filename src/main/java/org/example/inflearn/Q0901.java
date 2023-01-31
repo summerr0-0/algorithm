@@ -1,6 +1,7 @@
 package org.example.inflearn;
 
 import java.util.Arrays;
+
 //그리디 :: 정렬
 public class Q0901 {
 
@@ -13,8 +14,8 @@ public class Q0901 {
 
         int max = athletes[0].weight;
         int count = 1;
-        for(int i = 1; i< N; i++){
-            if(max<athletes[i].weight) {
+        for (int i = 1; i < N; i++) {
+            if (max < athletes[i].weight) {
                 count++;
                 max = athletes[i].weight;
             }

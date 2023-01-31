@@ -44,7 +44,7 @@ public class Q0814 {
                 int nx = x + move[i][0];
                 int ny = y + move[i][1];
                 if (nx < 0 || ny < 0 || nx >= n || ny >= n || arr[nx][ny] == 0) continue;
-                queue.add(new Point(nx,ny));
+                queue.add(new Point(nx, ny));
                 arr[nx][ny] = 0;
 
             }
