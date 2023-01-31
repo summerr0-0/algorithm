@@ -1,4 +1,4 @@
-package org.example.inflearn;
+package org.example.inflearn.Q09;
 
 import org.junit.jupiter.api.Test;
 

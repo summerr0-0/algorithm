@@ -1,4 +1,4 @@
-package org.example.inflearn;
+package org.example.inflearn.Q08;
 
 import java.util.LinkedList;
 import java.util.Queue;

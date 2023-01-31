@@ -1,5 +1,6 @@
-package org.example.inflearn;
+package org.example.inflearn.Q09;
 
+import org.example.inflearn.Q09.Q0901;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
