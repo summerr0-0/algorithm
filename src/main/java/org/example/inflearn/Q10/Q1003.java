@@ -1,6 +1,5 @@
 package org.example.inflearn.Q10;
 
-import java.util.Map;
 
 public class Q1003 {
     public int solution(int N, int arr[]) {
@@ -9,7 +8,7 @@ public class Q1003 {
         //기본 값 세팅
         dy[0] = 1;
 
-        for (int i = 2; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             int num = arr[i];
             int tmax = 0;
             //이전 값들 중에서 가장 큰 부분 증가 수열이 될 대상 찾기
